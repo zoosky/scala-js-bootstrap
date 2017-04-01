@@ -39,8 +39,9 @@ object Projects {
 
   private[this] val scalaJsSettings = Seq(
     name := projectName,
-    libraryDependencies ++= Seq("org.scala-js" %%% "scalajs-dom" % "0.8.1"),
-    persistLauncher := false,
+    organization := "DefinitelyScala",
+    licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
+    libraryDependencies ++= Seq("org.scala-js" %%% "scalajs-dom" % "0.8.1", "DefinitelyScala" %%% "scala-js-jquery" % "1.0.0"),
     scalaJSStage in Global := FastOptStage
   )
 
