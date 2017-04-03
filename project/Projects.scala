@@ -45,7 +45,7 @@ object Projects {
     bintrayVcsUrl := Some("git:git@github.com:DefinitelyScala/scala-js-bootstrap.git"),
     publishMavenStyle := true,
     licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
-    libraryDependencies ++= Seq("org.scala-js" %%% "scalajs-dom" % "0.8.1", "DefinitelyScala" %%% "scala-js-jquery" % "1.0.0"),
+    libraryDependencies ++= Seq("org.scala-js" %%% "scalajs-dom" % "0.8.1", "com.definitelyscala" %%% "scala-js-jquery" % "1.0.0"),
     scalaJSStage in Global := FastOptStage
   )
 
