@@ -31,7 +31,7 @@ object Projects {
 
   private[this] val scalaJsSettings = Seq(
     name := projectName,
-    organization := "DefinitelyScala",
+    organization := "com.definitelyscala",
     homepage := Some(url("https://github.com/DefinitelyScala/scala-js-bootstrap")),
     scmInfo := Some(ScmInfo(
       url("https://github.com/DefinitelyScala/scala-js-bootstrap"),

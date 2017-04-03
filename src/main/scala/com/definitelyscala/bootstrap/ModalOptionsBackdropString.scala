@@ -1,4 +1,4 @@
-package org.scalajs.bootstrap
+package com.definitelyscala.bootstrap
 
 import scala.scalajs.js
 
