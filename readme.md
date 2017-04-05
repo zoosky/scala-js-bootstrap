@@ -2,7 +2,7 @@ scala-js-bootstrap
 ===============
 
 [![Build Status](https://travis-ci.org/DefinitelyScala/scala-js-bootstrap.svg?branch=master)](https://travis-ci.org/DefinitelyScala/scala-js-bootstrap)
-[![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.13.svg)](https://www.scala-js.org/)
+[![Scala.js](https://www.scala-js.org/assets/badges/scalajs-0.6.15.svg)](https://www.scala-js.org/)
 
 Scala.js facades for [Bootstrap](http://twitter.github.com/bootstrap/).
 
