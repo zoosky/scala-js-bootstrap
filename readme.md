@@ -22,7 +22,7 @@ resolvers += Resolver.jcenterRepo,
 Then, add it to your SBT dependencies:
 
 ```
-libraryDependencies += "com.definitelyscala" %%% "scala-js-bootstrap" % "1.0"
+libraryDependencies += "com.definitelyscala" %%% "scala-js-bootstrap" % "1.0.0"
 ```
 
 Classes and traits are available in the package `com.definitelyscala.bootstrap`, scaladoc is provided.
