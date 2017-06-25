@@ -10,7 +10,7 @@ object Projects {
   val projectName = "scala-js-bootstrap"
 
   object Versions {
-    val app = "1.0.1"
+    val app = "1.0.2"
     val scalaVersions = Seq("2.11.8", "2.12.2")
   }
 
@@ -45,7 +45,7 @@ object Projects {
     bintrayVcsUrl := Some("git:git@github.com:DefinitelyScala/scala-js-bootstrap.git"),
     publishMavenStyle := true,
     licenses += ("MIT", url("http://opensource.org/licenses/MIT")),
-    libraryDependencies ++= Seq("org.scala-js" %%% "scalajs-dom" % "0.9.2", "com.definitelyscala" %%% "scala-js-jquery" % "1.0.1"),
+    libraryDependencies ++= Seq("org.scala-js" %%% "scalajs-dom" % "0.9.2", "com.definitelyscala" %%% "scala-js-jquery" % "1.0.2"),
     scalaJSStage in Global := FastOptStage
   )
 
