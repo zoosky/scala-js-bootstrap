@@ -2,6 +2,8 @@ scalacOptions ++= Seq( "-unchecked", "-deprecation" )
 
 resolvers += "Typesafe repository" at "https://repo.typesafe.com/typesafe/releases/"
 
+resolvers += Resolver.jcenterRepo
+
 // Scala.js
 addSbtPlugin("org.scala-js" % "sbt-scalajs" % "0.6.15")
 
